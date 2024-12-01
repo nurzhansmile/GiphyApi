@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    border: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: deeppink;
+    padding: 20px;
+    width: 100vw;
+}
+.search {
+    /*display: flex;*/
+}
+
+.search input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    padding: 20px
+
+}
+
+.search button{
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 33px;
+}
+
+.giphyWrap {
+    background-color: powderblue;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    /*align-items:;*/
+
+
+}
+
+.giphyItem {
+margin: 10px;
+}
+
+.giphyItem img {
+    width: 270px;
+    height: 480px;
+}
+
